@@ -22,7 +22,6 @@ $.ajax({
 * Enable user to order items by title
 * Enable user to filter completed items and remember that selection wheter user visit page again.
 * Enable user to search inside items titles (case insensitive)
-* Enable user to select an item and delete
 * Enable user to delete an item
 * Enable user to change item priority and show them in different colors (High, Medium, Low)
 * Enable user to view a single item
