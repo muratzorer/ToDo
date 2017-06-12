@@ -1,0 +1,94 @@
+html,
+body{
+	background-color:#EEEEEE;
+}
+.todolist{
+	background-color:#FFF;
+	padding:20px 20px 10px 20px;
+	margin-top:30px;
+}
+h1{
+	margin:0;
+	padding-bottom:20px;
+	text-align:center;
+	width: 100%;
+	font-size: 100px;
+	font-weight: 100;
+	color: rgba(175, 47, 47, 0.15);
+	-webkit-text-rendering: optimizeLegibility;
+	-moz-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+
+.transparent {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	outline: none;
+	border: 0;
+	background: transparent;
+}
+
+.form-control{
+	border-radius:0;
+}
+
+todo-list li .destroy {
+	display: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	outline: none;
+	border: 0;
+	background: transparent;
+	transition: color 0.2s ease-out;
+}
+
+.todo-list li:hover .destroy {
+	display: block;
+}
+
+.todo-list li .destroy:hover {
+	color: #af5b5e;
+}
+
+.todo-list li.completed label {
+	color: #d9d9d9;
+	text-decoration: line-through;
+}
+
+.info {
+	margin: 65px auto 0;
+	color: #bfbfbf;
+	font-size: 12px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	text-align: center;
+}
+
+.info p {
+	line-height: 1;
+}
+
+.info a {
+	color: inherit;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.info a:hover {
+	text-decoration: underline;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.pull-right-sm {
+		float: right;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+	.container-lg{
+		max-width: 670px;
+	}
+}

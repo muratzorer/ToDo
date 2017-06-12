@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" ng-app="todoApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TodoMVC</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container container-lg">
+  <div class="todolist">
+    <header>
+      <h1>ToDo</h1>
+    </header>
+    <ui-view></ui-view>
+  </div>
+  <footer class="info">
+    <p>Angular + Bootstrap + MobX</p>
+    <p>Responsive ToDo app by <a href="https://github.com/muratzorer">Murat Zorer</a></p>
+  </footer>
+</div>
+
+<script src="vendors.js"></script>
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ng-csv/0.3.6/ng-csv.min.js" integrity="sha256-13FuctLtwifPuI5sBG2biEIn48jDzv/Y4FhIq+BrBkg=" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

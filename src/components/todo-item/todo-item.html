@@ -1,0 +1,12 @@
+<li class="list-group-item" ng-class="{'editing': $ctrl.editing, 'completed': $ctrl.completed}">
+  <!--<div class="view" ng-dblclick="$ctrl.enableEditing()">-->
+  <div class="checkbox">
+    <label>
+      <input
+        class="toggle"
+        type="checkbox"
+        ng-checked="$ctrl.completed"
+        ng-click="$ctrl.toggleTodo()">{{$ctrl.title}}</label>
+    <button class="glyphicon glyphicon-remove pull-right destroy" ng-click="$ctrl.deleteTodo()"></button>
+  </div>
+</li>
