@@ -1,5 +1,28 @@
 # To-Do Api
 
+## How to run?
+
+1. For Dependencies:
+```
+npm install
+```
+2. Then just bundle with webpack using one of the options:
+```
+npm run dev
+npm run build:test
+npm run build:live
+```
+
+## Decisions that has influence on this project
+* Component architecture
+* Unidirectional data flow
+* Only one-way binding
+* Single source of truth (store/repository) for managing state and data
+* Smart/Dumb components
+* Single module
+* No routing
+* Mobx Observable for state tracking
+
 ## Goal
 To achive a To-Do api using given data source.
 
